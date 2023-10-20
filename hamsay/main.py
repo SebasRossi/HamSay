@@ -27,6 +27,9 @@ def main():
     elif "--hamster" in sys.argv[1:]:
         hamster(sys.argv[2:])
         sys.exit()
+    elif "--coso" in sys.argv[1:]:
+        hamster(sys.argv[2:])
+        sys.exit()
     else:
         hamster(sys.argv[1:])
         sys.exit()
